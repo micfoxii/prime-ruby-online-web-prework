@@ -1,5 +1,6 @@
 def prime?(n)
-  false if n < 2
+  if n < 2
+    return false
   (2..n).each do|x|
     if (n%x).zero?
     return false
