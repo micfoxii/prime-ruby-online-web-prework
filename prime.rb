@@ -5,7 +5,7 @@ def prime?(n)
     return false
   end
   end
-true 
+return true 
 end
 # Add  code here!
 # prime number is whole number, not a fraction, not divisible by any number
