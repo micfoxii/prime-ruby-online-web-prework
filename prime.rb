@@ -2,7 +2,7 @@ def prime?(n)
   if n < 2
     return false
   end
-  (2..n).each do|x|
+  (2...n).each do|x|
     if (n%x).zero?
     return false
   end
